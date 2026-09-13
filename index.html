@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sala Radovanje — Elegantna sala za venčanja i proslave | Kragujevac</title>
+<meta name="description" content="Sala Radovanje u Cerovcu kod Kragujevca — elegantna sala kapaciteta do 470 gostiju, 19 soba za smeštaj i 15+ godina iskustva u venčanjima, proslavama i poslovnim skupovima.">
+<meta name="theme-color" content="#14161A">
+<script>
+/* set before first paint: marks scripting, and resolves the motion
+   preference. ?motion=full / ?motion=reduce override the OS setting
+   (handy for review on machines that force reduced motion). */
+(function(){
+  var h=document.documentElement;
+  h.classList.add('js');
+  var q=(location.search.match(/[?&]motion=(full|reduce)/)||[])[1];
+  try{ q=q||localStorage.getItem('sr-motion')||''; }catch(e){}
+  var reduce = q==='reduce' || (q!=='full' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  if(reduce) h.classList.add('rm');
+  h.dataset.motion = reduce ? 'reduce' : 'full';
+})();
+</script>
+<link rel="canonical" href="https://www.vilaradovanje.rs/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:site_name" content="Sala Radovanje">
+<meta property="og:title" content="Sala Radovanje — Prostor za nezaboravne trenutke">
+<meta property="og:description" content="Elegantna sala kapaciteta do 470 gostiju, okružena prirodom. Cara Dušana Nemanjića 50, Cerovac, Kragujevac.">
+<meta property="og:image" content="images/hero-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..700&family=Archivo:wdth,wght@62..125,400;62..125,500;62..125,600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"EventVenue",
+  "name":"Sala Radovanje",
+  "description":"Elegantna sala za venčanja, proslave, krštenja, rođendane, bankete i poslovne skupove, kapaciteta 470 mesta, sa smeštajem u 19 soba.",
+  "maximumAttendeeCapacity":470,
+  "telephone":["+381346393145","+381638271535","+381644423724"],
+  "email":"radovanjekg@yahoo.com",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Cara Dušana Nemanjića 50",
+    "addressLocality":"Cerovac, Kragujevac",
+    "postalCode":"34000",
+    "addressCountry":"RS"
+  }
+}
+</script>
+</head>
+<body class="is-loading">
+
+<!-- ══ PRELOADER ══ -->
+<div class="pre" id="pre" aria-hidden="true">
+  <div class="pre__mark">
+    <img class="pre__logo" src="images/loading.webp" width="500" height="250"
+         alt="Vila Radovanje" fetchpriority="high" decoding="async">
+    <div class="pre__bar"><i id="pre-bar"></i></div>
+    <span class="label">Cerovac · Kragujevac</span>
+  </div>
+</div>
+
+<!-- ══ NAVIGATION ══ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vila Radovanje — na početak">
+    <img class="nav__logo nav__logo--mono" src="images/logo-mono.svg" width="2028" height="864"
+         alt="Vila Radovanje" fetchpriority="high">
+    <img class="nav__logo nav__logo--brand" src="images/logo.svg" width="2028" height="864"
+         alt="" aria-hidden="true" fetchpriority="high">
+  </a>
+  <nav class="nav__links" aria-label="Glavna navigacija">
+    <a href="#o-nama" data-navlink>O nama</a>
+    <a href="#dogadjaji" data-navlink>Događaji</a>
+    <a href="#sala" data-navlink>Sala</a>
+    <a href="#apartmani" data-navlink>Apartmani</a>
+    <a href="#galerija" data-navlink>Galerija</a>
+    <a href="#kontakt" data-navlink>Kontakt</a>
+  </nav>
+  <div class="nav__end">
+    <a class="nav__tel" href="tel:+381638271535">+381 63 827 1535</a>
+    <a class="btn" href="#kontakt"><i></i><span>Rezerviši termin</span></a>
+    <button class="nav__burger" id="burger" aria-label="Meni" aria-expanded="false" aria-controls="menu">
+      <i></i><i></i>
+    </button>
+  </div>
+</header>
+
+<!-- ══ MOBILE MENU ══ -->
+<div class="menu" id="menu">
+  <ul class="menu__list">
+    <li><a href="#o-nama">O nama</a></li>
+    <li><a href="#dogadjaji">Događaji</a></li>
+    <li><a href="#sala">Sala</a></li>
+    <li><a href="#apartmani">Apartmani</a></li>
+    <li><a href="#galerija">Galerija</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+  </ul>
+  <div class="menu__foot">
+    <img class="menu__logo" src="images/logo-mono.svg" width="2028" height="864" alt="" aria-hidden="true">
+    <span class="label">Cara Dušana Nemanjića 50 · 34000 Kragujevac · Cerovac</span>
+    <a class="label" href="tel:+381638271535">+381 63 827 1535</a>
+    <a class="label" href="mailto:radovanjekg@yahoo.com">radovanjekg@yahoo.com</a>
+  </div>
+</div>
+
+<!-- fixed scene counter -->
+<div class="sindex" id="sindex" aria-hidden="true">
+  <span class="sindex__n" id="sindex-n">01</span>
+  <span class="sindex__t" id="sindex-t">Prostor</span>
+</div>
+
+<main id="top">
+
+<!-- ══ 01 · HERO ═══════════════════════════════════════════ -->
+<section class="hero" id="hero" data-scene data-theme="light" data-scene-n="01" data-scene-t="Prostor">
+  <div class="hero__media" id="hero-media">
+    <div class="ph ph--noparallax" data-ph="hero-image">
+      <div class="ph__media">
+        <img class="ph__img" alt="Sala Radovanje — glavna sala pripremljena za venčanje" fetchpriority="high" decoding="async">
+      </div>
+      <div class="ph__slug"><b>hero-image</b><i>2400 × 1600 · landscape</i></div>
+    </div>
+    <div class="scrim scrim--hero"></div>
+  </div>
+  <div class="hero__veil" id="hero-veil"></div>
+
+  <div class="hero__content" id="hero-content">
+    <p class="hero__eyebrow label" data-rise>Venčanja · Proslave · Banketi</p>
+
+    <div class="hero__meta">
+      <span class="label" data-rise>Est. 2010</span>
+    </div>
+
+    <h1 class="hero__title display" data-split-lines>
+      <span class="line-m"><span>Prostor za</span></span>
+      <span class="line-m"><span>nezaboravne</span></span>
+      <span class="line-m"><span class="script">trenutke</span></span>
+    </h1>
+
+    <div class="hero__sub" data-rise>
+      <p class="lede">Elegantna sala kapaciteta do 470 gostiju, okružena prirodom — savršena pozornica za venčanja, proslave i poslovne događaje.</p>
+    </div>
+
+    <div class="hero__aside">
+      <p class="hero__stat" data-rise><b>470</b><span class="label">gostiju</span></p>
+      <p class="hero__stat" data-rise><b>19</b><span class="label">soba za smeštaj</span></p>
+      <a class="btn btn--lg" href="#galerija" data-rise><i></i><span>Pogledaj galeriju</span></a>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span class="label">Skrolujte</span>
+    <span class="scroll-cue__line"></span>
+  </div>
+</section>
+
+<!-- ══ 02 · O NAMA / THE VENUE ═════════════════════════════ -->
+<section class="section section--ivory section--clip intro" id="o-nama"
+         data-scene data-theme="dark" data-scene-n="02" data-scene-t="O nama">
+  <div class="wrap grid">
+    <p class="intro__label label" data-rise>02 &nbsp;—&nbsp; O nama</p>
+
+    <h2 class="intro__title display" data-split-lines>
+      <span class="line-m"><span>Elegancija</span></span>
+      <span class="line-m"><span class="script">koja nadahnjuje</span></span>
+    </h2>
+
+    <div class="intro__col">
+      <div class="intro__body body-copy" data-rise>
+        <p>Sala za izdavanje kapaciteta <strong>470 mesta</strong> idealna je za organizovanje proslava, banketa, venčanja, krštenja i rođendana — kao i svih vaših porodičnih i poslovnih skupova.</p>
+        <p>Kapacitet Vile Radovanje je oko 50 mesta raspoređenih u 19 soba, koje možete koristiti za:</p>
+      </div>
+
+      <ul class="intro__rooms">
+        <li data-rise><span class="label label--num">01</span><span>Dnevni boravak</span></li>
+        <li data-rise><span class="label label--num">02</span><span>Prenoćište</span></li>
+        <li data-rise><span class="label label--num">03</span><span>Prenoćište sa doručkom</span></li>
+        <li data-rise><span class="label label--num">04</span><span>Noćenja sa polu / punim pansionom za grupe</span></li>
+      </ul>
+
+      <p class="intro__note" data-rise>Sve sobe poseduju TV i klimu, a pojedine sobe đakuzi, internet i TV aparate.</p>
+    </div>
+
+    <figure class="intro__media" data-rise>
+      <div class="ph" data-parallax="w" data-ph="venue-exterior">
+        <div class="ph__media" data-parallax="img">
+          <img class="ph__img" alt="Eksterijer Sale Radovanje okružen zelenilom" loading="lazy" decoding="async">
+        </div>
+        <div class="ph__slug"><b>venue-exterior</b><i>1600 × 2000 · portrait 4:5</i></div>
+      </div>
+      <figcaption>
+        <span class="label">Cerovac, Kragujevac</span>
+        <span class="label label--num">01 / 02</span>
+      </figcaption>
+    </figure>
+
+    <h3 class="intro__big display" id="intro-big" aria-hidden="true">Za svaki poseban trenutak</h3>
+  </div>
+</section>
+
+<!-- ══ 03 · STATISTIKA (pinned) ════════════════════════════ -->
+<section class="section stats" id="iskustvo"
+         data-scene data-theme="light" data-scene-n="03" data-scene-t="Iskustvo">
+  <div class="stats__pin" id="stats-pin">
+    <div class="stats__bg">
+      <div class="ph" data-ph="stats-bg">
+        <div class="ph__media" id="stats-bg-img">
+          <img class="ph__img" alt="" loading="lazy" decoding="async" aria-hidden="true">
+        </div>
+        <div class="ph__slug"><b>stats-bg</b><i>2400 × 1600 · landscape</i></div>
+      </div>
+    </div>
+
+    <div class="stats__frame">
+      <div class="stats__head">
+        <p class="label">03 &nbsp;—&nbsp; Iskustvo</p>
+        <p class="label">Petnaest godina proslava</p>
+      </div>
+
+      <div class="stats__stage" id="stats-stage">
+        <div class="stat" data-stat="0">
+          <span class="stat__n display">470</span>
+          <span class="stat__t">
+            <b>Gostiju</b>
+            <span>Jedna sala, jedan događaj — bez deljenja prostora i bez kompromisa.</span>
+          </span>
+        </div>
+        <div class="stat" data-stat="1">
+          <span class="stat__n display">15+</span>
+          <span class="stat__t">
+            <b>Godina iskustva</b>
+            <span>Venčanja, krštenja, rođendani, banketi i poslovni skupovi — od 2010.</span>
+          </span>
+        </div>
+        <div class="stat" data-stat="2">
+          <span class="stat__n display">19</span>
+          <span class="stat__t">
+            <b>Apartmana</b>
+            <span>Oko 50 mesta za smeštaj, na istoj adresi na kojoj slavite.</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="stats__prog" id="stats-prog">
+        <button type="button" class="label is-on" data-goto="0">Kapacitet</button>
+        <button type="button" class="label" data-goto="1">Iskustvo</button>
+        <button type="button" class="label" data-goto="2">Smeštaj</button>
+        <span class="stats__bar"><i id="stats-bar"></i></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 04 · DOGAĐAJI — HORIZONTAL ══════════════════════════ -->
+<section class="section section--ink section--clip hs" id="dogadjaji"
+         data-scene data-theme="light" data-scene-n="04" data-scene-t="Događaji">
+  <div class="hs__pin" data-hs>
+    <div class="hs__head">
+      <p class="label">04 &nbsp;—&nbsp; Vrste događaja</p>
+      <p class="label">Za svaki poseban trenutak</p>
+    </div>
+
+    <div class="hs__track" data-hs-track>
+      <article class="hs__panel">
+        <div class="ph" data-parallax="w" data-ph="event-vencanja">
+          <div class="ph__media" data-hs-para>
+            <img class="ph__img" alt="Venčanje u Sali Radovanje" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>event-vencanja</b><i>2400 × 1500 · landscape</i></div>
+          <div class="scrim scrim--soft"></div>
+        </div>
+        <div class="hs__meta">
+          <div>
+            <h3>Venčanja</h3>
+            <p>Cela sala samo za vas — od svečanog ulaska do poslednje pesme.</p>
+          </div>
+          <span class="hs__num">01</span>
+        </div>
+      </article>
+
+      <article class="hs__panel hs__panel--tall">
+        <div class="ph" data-parallax="w" data-ph="event-rodjendani">
+          <div class="ph__media" data-hs-para>
+            <img class="ph__img" alt="Rođendanska proslava" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>event-rodjendani</b><i>1500 × 2000 · portrait 3:4</i></div>
+          <div class="scrim scrim--soft"></div>
+        </div>
+        <div class="hs__meta">
+          <div><h3>Rođendani</h3></div>
+          <span class="hs__num">02</span>
+        </div>
+      </article>
+
+      <article class="hs__panel">
+        <div class="ph" data-parallax="w" data-ph="event-proslave">
+          <div class="ph__media" data-hs-para>
+            <img class="ph__img" alt="Proslava u sali" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>event-proslave</b><i>2400 × 1500 · landscape</i></div>
+          <div class="scrim scrim--soft"></div>
+        </div>
+        <div class="hs__meta">
+          <div>
+            <h3>Proslave</h3>
+            <p>Porodični jubileji, godišnjice i svečane večere.</p>
+          </div>
+          <span class="hs__num">03</span>
+        </div>
+      </article>
+
+      <article class="hs__panel hs__panel--tall">
+        <div class="ph" data-parallax="w" data-ph="event-poslovni">
+          <div class="ph__media" data-hs-para>
+            <img class="ph__img" alt="Poslovni skup u sali" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>event-poslovni</b><i>1500 × 2000 · portrait 3:4</i></div>
+          <div class="scrim scrim--soft"></div>
+        </div>
+        <div class="hs__meta">
+          <div><h3>Poslovni<br>događaji</h3></div>
+          <span class="hs__num">04</span>
+        </div>
+      </article>
+
+      <article class="hs__panel">
+        <div class="ph" data-parallax="w" data-ph="event-krstenja">
+          <div class="ph__media" data-hs-para>
+            <img class="ph__img" alt="Krštenje" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>event-krstenja</b><i>2400 × 1500 · landscape</i></div>
+          <div class="scrim scrim--soft"></div>
+        </div>
+        <div class="hs__meta">
+          <div>
+            <h3>Krštenja</h3>
+            <p>Tiši, topliji format — za najbliže.</p>
+          </div>
+          <span class="hs__num">05</span>
+        </div>
+      </article>
+
+      <article class="hs__panel hs__panel--tall">
+        <div class="ph" data-parallax="w" data-ph="event-banketi">
+          <div class="ph__media" data-hs-para>
+            <img class="ph__img" alt="Banket" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>event-banketi</b><i>1500 × 2000 · portrait 3:4</i></div>
+          <div class="scrim scrim--soft"></div>
+        </div>
+        <div class="hs__meta">
+          <div><h3>Banketi</h3></div>
+          <span class="hs__num">06</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="hs__foot">
+      <span class="label">Vucite / skrolujte</span>
+      <span class="hs__bar"><i data-hs-bar></i></span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 05a · SCENA: VENČANJA ═══════════════════════════════ -->
+<section class="scene" data-scene data-theme="light" data-scene-n="05" data-scene-t="Venčanja">
+  <div class="scene__media">
+    <div class="ph" data-ph="wedding-01">
+      <div class="ph__media" data-scene-img>
+        <img class="ph__img" alt="Mladenci u Sali Radovanje" loading="lazy" decoding="async">
+      </div>
+      <div class="ph__slug"><b>wedding-01</b><i>2400 × 1600 · landscape</i></div>
+    </div>
+    <div class="scrim scrim--soft"></div>
+  </div>
+  <div class="scene__body" data-scene-body>
+    <p class="scene__kicker label">05 &nbsp;—&nbsp; Venčanja</p>
+    <p class="scene__idx label label--num">01 / 04</p>
+    <h2 class="scene__title display" data-split-lines>
+      <span class="line-m"><span>Trenuci koji</span></span>
+      <span class="line-m"><span class="script">ostaju zauvek</span></span>
+    </h2>
+    <div class="scene__copy" data-rise>
+      <p>Sala se izdaje u celosti — vaš dan se ne deli ni sa kim. Raspored stolova, ulazak mladenaca i tok večeri prilagođavamo vašem scenariju.</p>
+    </div>
+    <div class="scene__facts">
+      <p class="label" data-rise>Do 470 gostiju</p>
+      <p class="label" data-rise>Smeštaj na istoj adresi</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 05b · SCENA: PROSLAVE (mirrored) ════════════════════ -->
+<section class="scene scene--right" data-scene data-theme="light" data-scene-n="06" data-scene-t="Proslave">
+  <div class="scene__media">
+    <div class="ph" data-ph="celebration-01">
+      <div class="ph__media" data-scene-img>
+        <img class="ph__img" alt="Proslava u Sali Radovanje" loading="lazy" decoding="async">
+      </div>
+      <div class="ph__slug"><b>celebration-01</b><i>2400 × 1600 · landscape</i></div>
+    </div>
+    <div class="scrim scrim--soft"></div>
+  </div>
+  <div class="scene__body" data-scene-body>
+    <p class="scene__kicker label">06 &nbsp;—&nbsp; Proslave i banketi</p>
+    <p class="scene__idx label label--num">02 / 04</p>
+    <h2 class="scene__title display" data-split-lines>
+      <span class="line-m"><span>Slavlje bez</span></span>
+      <span class="line-m"><span class="script">improvizacije</span></span>
+    </h2>
+    <div class="scene__copy" data-rise>
+      <p>Krštenja, rođendani, godišnjice, banketi i poslovni skupovi — isti prostor, drugačija atmosfera, svaki put iznova postavljena.</p>
+    </div>
+    <div class="scene__facts">
+      <p class="label" data-rise>Rođendani · Krštenja</p>
+      <p class="label" data-rise>Poslovni skupovi</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 06 · SKY / SCULPTURAL OBJECT ════════════════════════ -->
+<section class="section sky" id="sky" data-scene data-theme="light" data-theme-foot="dark" data-scene-n="07" data-scene-t="Prostor">
+  <div class="sky__glow" id="sky-glow" aria-hidden="true"></div>
+
+  <h2 class="sky__type display" id="sky-type" aria-label="Prostor za vaše trenutke">
+    <span data-sky-line>Prostor</span>
+    <span data-sky-line>za vaše</span>
+    <span data-sky-line>trenutke</span>
+  </h2>
+
+  <!-- transparent PNG / WebP expected here — no crop, no background -->
+  <div class="sky__object" id="sky-object">
+    <div class="ph ph--object ph--arch" data-ph="sky-object" data-transparent="true">
+      <div class="ph__media">
+        <img class="ph__img" alt="Dekorativni aranžman Sale Radovanje" loading="lazy" decoding="async">
+      </div>
+      <div class="ph__slug"><b>sky-object</b><i>PNG / WebP · transparent · 1600²</i></div>
+    </div>
+  </div>
+
+  <div class="sky__foot">
+    <p class="lede" data-rise>Ambijent koji se pamti počinje od detalja: svetla, cveća, rasporeda i tišine pre prvog gosta.</p>
+    <p class="label" data-rise>07 &nbsp;—&nbsp; Ambijent</p>
+  </div>
+</section>
+
+<!-- ══ 07 · SALA — pinned architectural pan ════════════════ -->
+<section class="section hall" id="sala" data-scene data-theme="light" data-scene-n="08" data-scene-t="Sala">
+  <div class="hall__pin" id="hall-pin">
+    <div class="hall__canvas">
+      <!-- Two frames pan together. The first carries the exterior, so
+           the sky of section 07 runs straight into the sky of the
+           photograph; it dissolves into the interior as you scroll. -->
+      <div class="hall__frame" id="hall-frame">
+        <div class="ph hall__layer hall__layer--b" data-ph="hall-main">
+          <div class="ph__media">
+            <img class="ph__img" alt="Glavna sala pripremljena za proslavu" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>hall-main</b><i>2400 × 1600 · unutrašnjost sale</i></div>
+        </div>
+        <div class="ph hall__layer hall__layer--a" id="hall-layer-a" data-ph="hall-intro">
+          <div class="ph__media">
+            <img class="ph__img" alt="Sala Radovanje — eksterijer pod otvorenim nebom" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>hall-intro</b><i>2400 × 1600 · eksterijer s nebom</i></div>
+        </div>
+      </div>
+      <div class="scrim scrim--even"></div>
+      <!-- carries the pale horizon of section 07 down into this frame -->
+      <div class="hall__dissolve" aria-hidden="true"></div>
+    </div>
+
+    <div class="hall__ui">
+      <div class="stats__head">
+        <p class="label">08 &nbsp;—&nbsp; Sala</p>
+        <p class="label label--num">470 gostiju</p>
+      </div>
+
+      <h2 class="hall__title display" data-rise>Sala</h2>
+
+      <div class="hall__labels" id="hall-labels">
+        <div class="hall__label" data-hall-label="0">
+          <b>Prostor prilagođen vašem događaju</b>
+          <p>Svaki ugao naše sale odiše elegancijom i pažnjom prema detaljima.</p>
+        </div>
+        <div class="hall__label" data-hall-label="1">
+          <b>470 mesta, jedna proslava</b>
+          <p>Raspored stolova, podijum i bina postavljaju se prema vašem scenariju.</p>
+        </div>
+        <div class="hall__label" data-hall-label="2">
+          <b>Rasveta i zvuk</b>
+          <p>Atmosferu gradimo svetlom — od svečanog ulaska do poslednje pesme.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 08 · APARTMANI ══════════════════════════════════════ -->
+<section class="section apt" id="apartmani" data-scene data-theme="dark" data-scene-n="09" data-scene-t="Apartmani">
+  <div class="wrap apt__inner">
+    <div class="apt__side">
+      <p class="label" data-rise>09 &nbsp;—&nbsp; Smeštaj</p>
+      <h2 class="display" data-split-lines>
+        <span class="line-m"><span>Apartmani</span></span>
+        <span class="line-m"><span class="script">i prenoćište</span></span>
+      </h2>
+      <div class="body-copy" data-rise>
+        <p>Oko 50 mesta raspoređenih u 19 soba — pažljivo uređenih prostora koji pružaju udobnost, mir i prijatan boravak, na istoj adresi na kojoj slavite.</p>
+      </div>
+      <ul class="apt__list">
+        <li data-rise><b>Dnevni boravak</b><span class="label label--num">01</span></li>
+        <li data-rise><b>Prenoćište</b><span class="label label--num">02</span></li>
+        <li data-rise><b>Prenoćište sa doručkom</b><span class="label label--num">03</span></li>
+        <li data-rise><b>Polupansion i pun pansion za grupe</b><span class="label label--num">04</span></li>
+      </ul>
+      <p class="body-copy" data-rise style="margin-top:1.5rem">Sve sobe poseduju TV i klimu. Pojedine sobe imaju đakuzi i internet.</p>
+    </div>
+
+    <div class="apt__stream">
+      <figure class="apt__shot">
+        <div class="ph" data-parallax="w" data-ph="apartment-01">
+          <div class="ph__media" data-parallax="img">
+            <img class="ph__img" alt="Apartman u Vili Radovanje" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>apartment-01</b><i>1600 × 2000 · portrait 4:5</i></div>
+        </div>
+        <figcaption class="apt__cap"><span class="label">Soba sa đakuzijem</span><span class="label label--num">01 / 03</span></figcaption>
+      </figure>
+
+      <figure class="apt__shot">
+        <div class="ph" data-parallax="w" data-ph="apartment-02">
+          <div class="ph__media" data-parallax="img">
+            <img class="ph__img" alt="Detalj sobe" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>apartment-02</b><i>1800 × 1800 · square</i></div>
+        </div>
+        <figcaption class="apt__cap"><span class="label">Dnevni boravak</span><span class="label label--num">02 / 03</span></figcaption>
+      </figure>
+
+      <figure class="apt__shot">
+        <div class="ph" data-parallax="w" data-ph="apartment-03">
+          <div class="ph__media" data-parallax="img">
+            <img class="ph__img" alt="Prenoćište" loading="lazy" decoding="async">
+          </div>
+          <div class="ph__slug"><b>apartment-03</b><i>1500 × 2000 · portrait 3:4</i></div>
+        </div>
+        <figcaption class="apt__cap"><span class="label">19 soba · ~50 mesta</span><span class="label label--num">03 / 03</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 09 · GALERIJA ═══════════════════════════════════════ -->
+<section class="section gal" id="galerija" data-scene data-theme="dark" data-scene-n="10" data-scene-t="Galerija">
+  <div class="wrap">
+    <div class="gal__head">
+      <p class="gal__label label" data-rise>10 &nbsp;—&nbsp; Galerija</p>
+      <h2 class="display" data-split-lines>
+        <span class="line-m"><span>Galerija</span></span>
+      </h2>
+      <p data-rise>Svaki ugao naše sale odiše elegancijom i pažnjom prema detaljima.</p>
+    </div>
+
+    <div class="gal__grid">
+      <figure class="gal__item g1" data-gal>
+        <div class="ph" data-parallax="w" data-ph="gallery-01">
+          <div class="ph__media" data-parallax="img"><img class="ph__img" alt="Sala Radovanje — galerija 01" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>gallery-01</b><i>2400 × 1350 · 16:9</i></div>
+        </div>
+        <figcaption class="gal__cap"><span class="label">Postavka za venčanje</span><span class="label label--num">01</span></figcaption>
+      </figure>
+
+      <figure class="gal__item g2" data-gal>
+        <div class="ph" data-parallax="w" data-ph="gallery-02">
+          <div class="ph__media" data-parallax="img"><img class="ph__img" alt="Sala Radovanje — galerija 02" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>gallery-02</b><i>1200 × 1600 · 3:4</i></div>
+        </div>
+        <figcaption class="gal__cap"><span class="label">Detalj stola</span><span class="label label--num">02</span></figcaption>
+      </figure>
+
+      <figure class="gal__item g3" data-gal>
+        <div class="ph" data-parallax="w" data-ph="gallery-03">
+          <div class="ph__media" data-parallax="img"><img class="ph__img" alt="Sala Radovanje — galerija 03" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>gallery-03</b><i>1200 × 1800 · 2:3</i></div>
+        </div>
+        <figcaption class="gal__cap"><span class="label">Foto-kutak</span><span class="label label--num">03</span></figcaption>
+      </figure>
+
+      <figure class="gal__item g4" data-gal>
+        <div class="ph" data-parallax="w" data-ph="gallery-04">
+          <div class="ph__media" data-parallax="img"><img class="ph__img" alt="Sala Radovanje — galerija 04" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>gallery-04</b><i>2000 × 1500 · 4:3</i></div>
+        </div>
+        <figcaption class="gal__cap"><span class="label">Rasveta</span><span class="label label--num">04</span></figcaption>
+      </figure>
+
+      <figure class="gal__item g5" data-gal>
+        <div class="ph" data-parallax="w" data-ph="gallery-05">
+          <div class="ph__media" data-parallax="img"><img class="ph__img" alt="Sala Radovanje — galerija 05" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>gallery-05</b><i>2800 × 1200 · 21:9</i></div>
+        </div>
+        <figcaption class="gal__cap"><span class="label">Panorama sale</span><span class="label label--num">05</span></figcaption>
+      </figure>
+
+      <figure class="gal__item g6" data-gal>
+        <div class="ph" data-parallax="w" data-ph="gallery-06">
+          <div class="ph__media" data-parallax="img"><img class="ph__img" alt="Sala Radovanje — galerija 06" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>gallery-06</b><i>1800 × 1800 · square</i></div>
+        </div>
+        <figcaption class="gal__cap"><span class="label">Bašta</span><span class="label label--num">06</span></figcaption>
+      </figure>
+
+      <figure class="gal__item g7" data-gal>
+        <div class="ph" data-parallax="w" data-ph="gallery-07">
+          <div class="ph__media" data-parallax="img"><img class="ph__img" alt="Sala Radovanje — galerija 07" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>gallery-07</b><i>1200 × 1600 · 3:4</i></div>
+        </div>
+        <figcaption class="gal__cap"><span class="label">Dekoracija</span><span class="label label--num">07</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 10 · DETALJI — SECOND HORIZONTAL (ghost type) ═══════ -->
+<section class="section section--paper section--clip hs hs--ghost" id="detalji"
+         data-scene data-theme="dark" data-scene-n="11" data-scene-t="Detalji">
+  <div class="hs__pin" data-hs data-hs-ghost-speed="0.42">
+    <h2 class="hs__ghost display" data-hs-ghost aria-hidden="true">Detalji &nbsp;· Ambijent &nbsp;· Dekoracija &nbsp;· Rasveta &nbsp;· Atmosfera</h2>
+
+    <div class="hs__head">
+      <p class="label">11 &nbsp;—&nbsp; Detalji</p>
+      <p class="label">Ono što se pamti</p>
+    </div>
+
+    <div class="hs__track" data-hs-track>
+      <article class="hs__panel">
+        <div class="ph" data-ph="detail-detalji">
+          <div class="ph__media" data-hs-para><img class="ph__img" alt="Detalj postavke stola" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>detail-detalji</b><i>1800 × 1800 · square</i></div>
+          <div class="scrim scrim--base"></div>
+        </div>
+        <div class="hs__meta"><div><h3>Detalji</h3></div><span class="hs__num">01</span></div>
+      </article>
+      <article class="hs__panel">
+        <div class="ph" data-ph="detail-ambijent">
+          <div class="ph__media" data-hs-para><img class="ph__img" alt="Ambijent sale" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>detail-ambijent</b><i>1800 × 1800 · square</i></div>
+          <div class="scrim scrim--base"></div>
+        </div>
+        <div class="hs__meta"><div><h3>Ambijent</h3></div><span class="hs__num">02</span></div>
+      </article>
+      <article class="hs__panel">
+        <div class="ph" data-ph="detail-dekoracija">
+          <div class="ph__media" data-hs-para><img class="ph__img" alt="Dekoracija" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>detail-dekoracija</b><i>1800 × 1800 · square</i></div>
+          <div class="scrim scrim--base"></div>
+        </div>
+        <div class="hs__meta"><div><h3>Dekoracija</h3></div><span class="hs__num">03</span></div>
+      </article>
+      <article class="hs__panel">
+        <div class="ph" data-ph="detail-rasveta">
+          <div class="ph__media" data-hs-para><img class="ph__img" alt="Rasveta" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>detail-rasveta</b><i>1800 × 1800 · square</i></div>
+          <div class="scrim scrim--base"></div>
+        </div>
+        <div class="hs__meta"><div><h3>Rasveta</h3></div><span class="hs__num">04</span></div>
+      </article>
+      <article class="hs__panel">
+        <div class="ph" data-ph="detail-atmosfera">
+          <div class="ph__media" data-hs-para><img class="ph__img" alt="Atmosfera proslave" loading="lazy" decoding="async"></div>
+          <div class="ph__slug"><b>detail-atmosfera</b><i>1800 × 1800 · square</i></div>
+          <div class="scrim scrim--base"></div>
+        </div>
+        <div class="hs__meta"><div><h3>Atmosfera</h3></div><span class="hs__num">05</span></div>
+      </article>
+    </div>
+
+    <div class="hs__foot">
+      <span class="label">Vucite / skrolujte</span>
+      <span class="hs__bar"><i data-hs-bar></i></span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 11 · ISKUSTVA / QUOTE ═══════════════════════════════ -->
+<section class="section quote" id="iskustva" data-scene data-theme="light" data-scene-n="12" data-scene-t="Iskustva">
+  <div class="quote__bg">
+    <div class="ph" data-ph="quote-bg">
+      <div class="ph__media" data-parallax="img"><img class="ph__img" alt="" loading="lazy" decoding="async" aria-hidden="true"></div>
+      <div class="ph__slug"><b>quote-bg</b><i>2400 × 1600 · landscape</i></div>
+    </div>
+  </div>
+
+  <div class="quote__inner wrap">
+    <p class="label" data-rise style="margin-bottom:clamp(2rem,6vh,4rem)">12 &nbsp;—&nbsp; Iskustva</p>
+    <blockquote data-gsap-lines>
+      <span class="line-m"><span>Ambijent koji</span></span>
+      <span class="line-m"><span>pretvara svaku proslavu</span></span>
+      <span class="line-m"><span class="script">u nezaboravno iskustvo</span></span>
+    </blockquote>
+    <div class="quote__foot">
+      <p data-rise>Svaki detalj — od rasvete do muzike, od dekoracije do kuhinje — osmišljen je da stvori savršenu atmosferu koja traje u sećanju.</p>
+      <div class="quote__tags">
+        <span class="label" data-rise>Rasveta</span>
+        <span class="label" data-rise>Muzika</span>
+        <span class="label" data-rise>Dekoracija</span>
+        <span class="label" data-rise>Kuhinja</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 12 · LOKACIJA ═══════════════════════════════════════ -->
+<section class="section loc" id="lokacija" data-scene data-theme="dark" data-scene-n="13" data-scene-t="Lokacija">
+  <div class="wrap">
+    <p class="loc__label label" data-rise>13 &nbsp;—&nbsp; Lokacija</p>
+    <h2 class="loc__type display" id="loc-type" aria-label="Kragujevac, Cerovac">
+      <span data-loc-line>Kragujevac</span>
+      <span data-loc-line>Cerovac</span>
+    </h2>
+
+    <div class="loc__card">
+      <div class="loc__addr" data-rise>
+        <p class="label">Adresa</p>
+        <h3>Cara Dušana<br>Nemanjića 50</h3>
+        <p class="label" style="margin-top:.8rem;opacity:.6">34000 Kragujevac · Cerovac</p>
+      </div>
+      <p class="loc__hint" data-rise>Sala je okružena prirodom, na kratkoj vožnji od centra Kragujevca — sa prostorom za parkiranje i smeštajem na istoj adresi.</p>
+      <div class="loc__act">
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Cara+Du%C5%A1ana+Nemanji%C4%87a+50%2C+34000+Kragujevac%2C+Cerovac" target="_blank" rel="noopener" data-rise><i></i><span>Otvori u mapama</span></a>
+        <a class="link label" href="tel:+381346393145" data-rise>034 639 3145</a>
+      </div>
+
+      <div class="loc__map" data-rise>
+        <iframe
+          title="Mapa — Sala Radovanje, Cara Dušana Nemanjića 50, Cerovac, Kragujevac"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+          src="https://www.openstreetmap.org/export/embed.html?bbox=20.85%2C43.98%2C20.99%2C44.06&amp;layer=mapnik&amp;marker=44.0165%2C20.9210"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 13 · KONTAKT / FINAL CTA ════════════════════════════ -->
+<section class="section cta" id="kontakt" data-scene data-theme="light" data-scene-n="14" data-scene-t="Kontakt">
+  <div class="cta__media">
+    <div class="ph" data-ph="final-venue">
+      <div class="ph__media" data-scene-img>
+        <img class="ph__img" alt="Sala Radovanje u večernjem svetlu" loading="lazy" decoding="async">
+      </div>
+      <div class="ph__slug"><b>final-venue</b><i>2400 × 1600 · landscape</i></div>
+    </div>
+    <div class="scrim scrim--soft"></div>
+  </div>
+
+  <div class="cta__body">
+    <p class="cta__kicker label">14 &nbsp;—&nbsp; Kontakt</p>
+
+    <h2 class="cta__title display" data-split-lines>
+      <span class="line-m"><span>Vaš dan.</span></span>
+      <span class="line-m"><span class="script">Naš prostor.</span></span>
+    </h2>
+
+    <div class="cta__cols">
+      <div class="cta__col">
+        <span class="label">Adresa</span>
+        <p>Cara Dušana Nemanjića 50<br>34000 Kragujevac · Cerovac</p>
+      </div>
+      <div class="cta__col">
+        <span class="label">Telefoni</span>
+        <a class="link" href="tel:+381346393145">034 639 3145</a>
+        <a class="link" href="tel:+381638271535">+381 63 827 1535</a>
+        <a class="link" href="tel:+381644423724">+381 64 442 3724</a>
+      </div>
+      <div class="cta__col">
+        <span class="label">E-mail</span>
+        <a class="link" href="mailto:radovanjekg@yahoo.com">radovanjekg@yahoo.com</a>
+      </div>
+      <div class="cta__col cta__col--act">
+        <span class="label">Rezervacija</span>
+        <a class="btn btn--lg" href="mailto:radovanjekg@yahoo.com?subject=Upit%20za%20termin%20%E2%80%94%20Sala%20Radovanje&amp;body=Datum%20doga%C4%91aja%3A%0ATip%20doga%C4%91aja%3A%0ABroj%20gostiju%3A%0AKontakt%20telefon%3A%0A"><i></i><span>Pošaljite upit</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <span class="foot__brand">
+      <img class="foot__logo" src="images/logo-mono.svg" width="2028" height="864" alt="Vila Radovanje" loading="lazy">
+      <span class="label">Cerovac, Kragujevac</span>
+    </span>
+    <nav class="foot__nav" aria-label="Podnožje">
+      <a class="label link" href="#o-nama">O nama</a>
+      <a class="label link" href="#dogadjaji">Događaji</a>
+      <a class="label link" href="#galerija">Galerija</a>
+      <a class="label link" href="#kontakt">Kontakt</a>
+    </nav>
+    <span class="label">© 2025 Sala i Vrt. Sva prava zadržana.</span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/CustomEase.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.21/dist/lenis.min.js"></script>
+<script src="js/images.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
